@@ -1,3 +1,7 @@
+document.getElementById("myBtn").addEventListener("click", function() {
+  computeLoan(); 
+});
+
 function computeLoan() {
   var amount = document.getElementById('amount').value;
   var interest_rate = document.getElementById('interest_rate').value;

@@ -17,12 +17,14 @@
   <body><!---->
     <!---->
     <p>Loan Amount: $<input id="amount" type="number" min="1" max="1000000"
-      onchange="computeLoan()" /></p>
+      onclick="computeLoan()" /></p>
     <p>Interest Rate: <input id="interest_rate" type="number" min="0" max="100"
-      value="10" step=".1" onchange="computeLoan()">%</p>
+      value="10" onclick="computeLoan()">%</p>
     <p>Months: <input id="months" type="number" min="1" max="72" value="1"
-      step="1" onchage="computeLoan()" /></p>
+      onclick="computeLoan()" /></p>
+    <button id="myBtn">Calculate</button>
     <h2 id="payment"></h2>
+
 
 
 
